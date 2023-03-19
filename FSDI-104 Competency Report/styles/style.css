@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+*{
+    margin: 10;
+    padding: 10;
+}
+:root{
+    --primary:rgb(13, 13, 20);
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(218, 214, 214);
+    color: rgb(20, 19, 19);
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    background:rgb(184, 179, 179);
+    margin: 10px;
+    padding: 10px;
+    text-align: flex;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 20%;
+}
+
+/*header*/
+.site-header img{
+    display:inline-block;
+    margin: 10px auto;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid #dedede;
+    padding: 10px;
+    }
+.site-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 40%;
+}
+.site-header h1{
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    color:yellow;
+    text-shadow: 2px 4px red;
+}
